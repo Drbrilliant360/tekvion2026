@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 220 20% 97%;
+    --foreground: 220 30% 10%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 30% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 30% 10%;
+
+    --primary: 203 94% 54%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 220 20% 94%;
+    --secondary-foreground: 220 30% 10%;
+
+    --muted: 220 15% 92%;
+    --muted-foreground: 220 10% 46%;
+
+    --accent: 24 93% 50%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 15% 88%;
+    --input: 220 15% 88%;
+    --ring: 203 94% 54%;
+    --radius: 0.5rem;
+
+    /* Tekvion custom tokens */
+    --primary-dark: 203 93% 39%;
+    --hero-bg: 222 40% 7%;
+    --hero-overlay: 222 40% 4%;
+    --section-dark: 220 20% 96%;
+    --section-light: 0 0% 100%;
+    --card-dark: 220 15% 98%;
+    --card-dark-border: 220 15% 85%;
+    --glow-primary: 203 94% 54%;
+    --glow-accent: 24 93% 50%;
+    --footer-bg: 220 20% 12%;
+    --nav-bg: 0 0% 100%;
+    --section-dark-text: 220 30% 10%;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 222 40% 7%;
+    --foreground: 210 40% 98%;
+    --card: 222 25% 12%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222 25% 12%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 203 94% 54%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 220 20% 16%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 220 20% 16%;
+    --muted-foreground: 215 20% 65%;
+    --accent: 24 93% 50%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 220 20% 18%;
+    --input: 220 20% 18%;
+    --ring: 203 94% 54%;
+
+    --hero-bg: 222 40% 7%;
+    --hero-overlay: 222 40% 4%;
+    --section-dark: 222 30% 8%;
+    --section-light: 220 20% 97%;
+    --card-dark: 222 25% 12%;
+    --card-dark-border: 203 60% 30%;
+    --footer-bg: 222 40% 5%;
+    --nav-bg: 0 0% 0%;
+    --section-dark-text: 0 0% 95%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Rajdhani', sans-serif;
+  }
+}
+
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+/* Tekvion tech glow effect */
+@layer utilities {
+  .tech-glow {
+    @apply transition-shadow duration-300;
+    box-shadow: 0 4px 20px hsl(var(--glow-primary) / 0.1);
+  }
+  .tech-glow:hover {
+    box-shadow: 0 8px 40px hsl(var(--glow-primary) / 0.3), 0 0 0 1px hsl(var(--glow-primary) / 0.15);
+  }
+  .gradient-text {
+    background: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--accent)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .section-dark {
+    background-color: hsl(var(--section-dark));
+    color: hsl(var(--section-dark-text));
+  }
+  .section-light {
+    background-color: hsl(var(--section-light));
+    color: hsl(var(--foreground));
+  }
+}
+
+/* Smooth scrolling - merged with overflow-x above */
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: hsl(var(--background));
+}
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--primary) / 0.5);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--primary) / 0.7);
+}

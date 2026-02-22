@@ -1,0 +1,221 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "whatWeDo": "What we do",
+    "portfolio": "Portfolio",
+    "compliance": "Compliance",
+    "valueProposition": "Value Proposition",
+    "contactUs": "Contact Us",
+    "login": "Login"
+  },
+  "hero": {
+    "aboutCompany": "About Company",
+    "contact": "Contact",
+    "typed": ["Creative Work Idea", "Cutting-edge Technology", "Beautiful Design"],
+    "defaultTitle": "Innovating with AI & Cloud",
+    "defaultDesc": "We deliver AI, cloud and automation solutions to accelerate business outcomes and drive measurable value."
+  },
+  "services": {
+    "title": "What We",
+    "titleHighlight": "Do",
+    "subtitle": "We design and deliver end-to-end digital transformation solutions.",
+    "aiMl": "AI & Machine Learning",
+    "aiMlDesc": "Applied AI and ML solutions to automate decisions, personalize experiences and unlock new revenue streams.",
+    "cloud": "Cloud Computing",
+    "cloudDesc": "Cloud strategy, migration and managed services to build resilient, scalable platforms for modern apps.",
+    "data": "Big Data & Analytics",
+    "dataDesc": "Scalable data platforms and analytics pipelines that turn raw data into actionable business insight.",
+    "security": "Cybersecurity",
+    "securityDesc": "Comprehensive security services to protect data, secure applications and manage risk across your estate.",
+    "api": "API & Integration",
+    "apiDesc": "Connect platforms and workflows with secure APIs, integrations, and scalable orchestration.",
+    "mobile": "Mobile & Web Development",
+    "mobileDesc": "Modern web and mobile products with exceptional UX, scalable architecture and rapid delivery.",
+    "automation": "Intelligent Automation",
+    "automationDesc": "Streamline operations with workflow automation, RPA, and AI-driven process optimization.",
+    "it": "IT & Infrastructure",
+    "itDesc": "Resilient infrastructure, observability, and managed services to keep systems secure and fast."
+  },
+  "solutions": {
+    "title": "Our",
+    "titleHighlight": "Solutions",
+    "dataManagement": "Data Management",
+    "enterprise": "Enterprise Applications",
+    "automationIntegration": "Automation and Integration",
+    "ai": "Artificial Intelligence and Agentic AI",
+    "cybersecurity": "Cybersecurity and Digital Trust",
+    "cloudSovereignty": "AI Infrastructure & Cloud Sovereignty",
+    "green": "Sustainable & Green Technology",
+    "governance": "Information Technology Governance",
+    "managed": "Managed IT Services",
+    "itsm": "IT Service Management"
+  },
+  "about": {
+    "title": "About",
+    "titleHighlight": "Tekvion",
+    "subtitle": "We design and deliver end-to-end digital transformation solutions—strategy, cloud, data, and automation—helping organizations modernize, scale, and achieve measurable business outcomes.",
+    "vision": "Our Vision",
+    "visionText": "To empower businesses with digital capabilities that unlock new value, improve customer experiences, and create sustainable competitive advantage.",
+    "mission": "Our Mission",
+    "missionText": "Deliver end-to-end transformation by combining strategy, engineering, and design—building trusted platforms and intelligent products that scale."
+  },
+  "whyChoose": {
+    "title": "Why Choose",
+    "titleHighlight": "Tekvion",
+    "subtitle": "We bring fresh perspectives, cutting-edge expertise, and unwavering commitment to transform your business.",
+    "expertTeam": "Expert Team",
+    "expertStat": "100%",
+    "expertDesc": "Certified professionals with deep expertise in AI, cloud, data engineering, and digital transformation.",
+    "modernTech": "Modern Tech Stack",
+    "modernStat": "Latest",
+    "modernDesc": "We leverage cutting-edge technologies and best practices to deliver scalable, future-proof solutions.",
+    "clientSuccess": "Client Success",
+    "clientStat": "Guaranteed",
+    "clientDesc": "Dedicated partnership approach ensuring measurable business outcomes and ROI for every project."
+  },
+  "contact": {
+    "title": "Get In",
+    "titleHighlight": "Touch",
+    "name": "Name",
+    "phone": "Phone Number",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send Now",
+    "testimonialsTitle": "What Clients",
+    "testimonialsHighlight": "Say"
+  },
+  "footer": {
+    "subscribe": "Subscribe",
+    "enterEmail": "Enter your email",
+    "usefulLinks": "Useful Links",
+    "news": "News",
+    "company": "Company",
+    "contactUs": "Contact Us",
+    "copyright": "© 2026 All Rights Reserved. TekVion Technologies",
+    "newsText": "It is a long established fact that a reader will be distracted by the readable content of a page when",
+    "companyText": "It is a long established fact that a reader will be distracted by the readable content of a page when",
+    "address": "Sapphire Tower, Dubai, UAE",
+    "call": "Call",
+    "phone": "+971 522 900 966",
+    "email": "Info@tekvion.ae"
+  },
+  "toast": {
+    "invalidInput": "Invalid input",
+    "tooManySubmissions": "Too many submissions. Please wait a moment.",
+    "messageSent": "Message sent!",
+    "messageSentSuccess": "Message sent successfully!",
+    "failedToSend": "Failed to send",
+    "failedToSendMessage": "Failed to send message"
+  },
+  "errorBoundary": {
+    "title": "Something went wrong",
+    "message": "An unexpected error occurred. Please try again.",
+    "errorDetails": "Error details",
+    "tryAgain": "Try Again",
+    "goHome": "Go Home"
+  },
+  "aboutPage": {
+    "title": "About Tekvion",
+    "subtitle": "We partner with organizations to design, build, and scale digital products and platforms that deliver measurable business impact.",
+    "executiveSummary": "Executive Summary",
+    "companyName": "TEKVION TECHNOLOGY L.L.C",
+    "executiveText": "is a Dubai-based technology consulting and services company delivering high-impact solutions across IT infrastructure, cloud, cybersecurity, artificial intelligence, and data-driven platforms. Licensed by the Department of Economy & Tourism – Dubai, Tekvion combines strategic consulting, digital transformation solution design and implementation, and managed services to help organizations modernize operations, secure digital assets, and turn technology into a measurable business advantage in line with the UAE government's mission for the IT sector.",
+    "vision": "Our Vision",
+    "visionText": "To be the most trusted technology partner for growth—helping businesses use data, cloud, and automation to innovate faster, operate smarter, and deliver exceptional customer experiences.",
+    "mission": "Our Mission",
+    "missionText": "We deliver end-to-end digital transformation by combining strategy, engineering, and design. From discovery to deployment, we build secure, scalable solutions that accelerate outcomes and create lasting value."
+  },
+  "portfolioPage": {
+    "title": "Our Portfolio",
+    "subtitle": "Showcasing our work across AI, cloud, data, and cybersecurity solutions.",
+    "project1Title": "AI-Powered Analytics Platform",
+    "project1Category": "Artificial Intelligence",
+    "project1Desc": "End-to-end ML pipeline delivering real-time business intelligence for a leading UAE enterprise.",
+    "project2Title": "Cloud Migration & Modernization",
+    "project2Category": "Cloud Computing",
+    "project2Desc": "Migrated legacy infrastructure to a cloud-native architecture, reducing costs by 40%.",
+    "project3Title": "Enterprise Data Lake",
+    "project3Category": "Big Data & Analytics",
+    "project3Desc": "Built a scalable data lake processing petabytes of data for actionable insights across departments.",
+    "project4Title": "Zero-Trust Security Framework",
+    "project4Category": "Cybersecurity",
+    "project4Desc": "Implemented comprehensive zero-trust security across multi-cloud environments for a financial institution.",
+    "cta": "Interested in working with us?",
+    "ctaButton": "Get in touch"
+  },
+  "compliancePage": {
+    "title": "Regulatory, Risks & Compliance",
+    "subtitle": "We align our delivery and operations with leading regulatory frameworks, security guidelines, and risk management best practices—so your solutions stay secure, compliant, and fit for the UAE and global markets.",
+    "item1Title": "Alignment with UAE Cyber Security Council Guidelines",
+    "item1Desc": "Our solutions and practices align with the UAE Cyber Security Council's guidelines and national cybersecurity strategy, helping you meet local regulatory expectations and protect critical assets.",
+    "item2Title": "Data Residency and Sovereignty Compliance",
+    "item2Desc": "We design and implement architectures that respect data residency and sovereignty requirements, including UAE and regional mandates, so your data stays where it is required and remains compliant.",
+    "item3Title": "Information Service Management Standards and Frameworks",
+    "item3Desc": "We apply established standards and frameworks—such as ITIL, ISO 20000, and related ISM practices—to deliver consistent, measurable service quality and continuous improvement.",
+    "item4Title": "Vendor Governance",
+    "item4Desc": "Structured vendor governance ensures third-party products and services are selected, monitored, and managed in line with your risk appetite and compliance obligations.",
+    "item5Title": "IT Risk Management Best Practices",
+    "item5Desc": "We embed IT risk management best practices across the lifecycle—from assessment and treatment to monitoring and reporting—so risks are identified, owned, and managed effectively."
+  },
+  "valuePage": {
+    "title": "Value Proposition",
+    "subtitle": "We deliver IT solutions that are UAE-compliant, scalable, and risk-aware—so your business gains sustainable, long-term technology value.",
+    "item1Title": "UAE-compliant, governance-driven IT solutions",
+    "item1Desc": "Our solutions are designed to meet UAE regulatory and governance requirements. We embed compliance and governance into delivery so your IT stays aligned with local standards and best practices.",
+    "item2Title": "Scalable services aligned with business outcomes",
+    "item2Desc": "We scale technology and services with your growth and objectives. From design to operations, our offerings are aligned with measurable business outcomes so you get results that matter.",
+    "item3Title": "Reduced operational, regulatory, and cybersecurity risk",
+    "item3Desc": "We help lower operational, regulatory, and cybersecurity risk through structured processes, security-by-design, and ongoing monitoring—so you can focus on growth with greater confidence.",
+    "item4Title": "Sustainable, long-term technology value",
+    "item4Desc": "We build for the long term: architectures, practices, and partnerships that deliver sustained value, reduce waste, and keep your technology fit for the future."
+  },
+  "contactPage": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch with our team to discuss your project needs.",
+    "getInTouch": "Get In Touch",
+    "sendNow": "Send Now"
+  },
+  "loginPage": {
+    "welcomeBack": "Welcome back",
+    "signInTo": "Sign in to your Tekvion account",
+    "email": "Email",
+    "password": "Password",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot password?",
+    "signIn": "Sign in",
+    "noAccount": "Don't have an account?",
+    "signUp": "Sign up"
+  },
+  "signupPage": {
+    "createAccount": "Create account",
+    "joinTekvion": "Join Tekvion and get started",
+    "fullName": "Full name",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm password",
+    "signUp": "Sign up",
+    "signingUp": "Signing up...",
+    "haveAccount": "Already have an account?",
+    "signIn": "Sign in"
+  },
+  "forgotPage": {
+    "title": "Reset password",
+    "subtitle": "Enter your email and we'll send you a reset link",
+    "email": "Email",
+    "send": "Send reset link",
+    "backToSignIn": "Back to sign in"
+  },
+  "notFound": {
+    "title": "404",
+    "message": "Oops! Page not found",
+    "subtitle": "The page you're looking for doesn't exist or has been moved.",
+    "backHome": "Return to Home"
+  },
+  "errorPage": {
+    "title": "Something went wrong",
+    "message": "An unexpected error occurred. Please try again or return to the homepage.",
+    "retry": "Try Again",
+    "backHome": "Go Home"
+  }
+}

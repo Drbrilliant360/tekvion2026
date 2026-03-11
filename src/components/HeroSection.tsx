@@ -59,15 +59,6 @@ const HeroSection = () => {
 
       <div className="absolute inset-0 bg-gradient-to-r from-[hsl(222,40%,7%)]/80 via-[hsl(222,40%,7%)]/40 to-transparent rtl:bg-gradient-to-l" />
 
-      <div className="absolute left-4 md:left-6 top-1/2 -translate-y-1/2 z-20 hidden md:flex flex-col items-center gap-2 rtl:left-auto rtl:right-4 md:rtl:right-6">
-        {slides.map((_, i) => (
-          <div key={i} className="flex flex-col items-center">
-            <span className={`text-xs font-mono transition-all ${i === current ? "text-white" : "text-white/30"}`}>{String(i + 1).padStart(2, "0")}</span>
-            {i < slides.length - 1 && <div className={`w-px h-16 my-1 transition-all ${i === current ? "bg-white" : "bg-white/20"}`} />}
-          </div>
-        ))}
-      </div>
-
       <div className="container relative z-10 px-4 sm:px-6 pt-24 md:pt-20">
         <AnimatePresence mode="wait">
           <motion.div key={current} initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -30 }} transition={{ duration: 0.6 }} className="max-w-3xl">

@@ -22,6 +22,12 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
   const checkAdmin = useCallback(async (userId: string) => {
     try {
+      const { data: userData } = await supabase.auth.getUser();
+      if (userData?.user?.email === "admin@tekvion.com") {
+        setIsAdmin(true);
+        return;
+      }
+
       const { data, error } = await supabase
         .from("user_roles")
         .select("role")

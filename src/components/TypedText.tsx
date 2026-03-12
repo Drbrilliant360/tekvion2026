@@ -51,7 +51,7 @@ const TypedText = ({
   }, [charIndex, isDeleting, stringIndex, strings, typeSpeed, backSpeed, backDelay]);
 
   return (
-    <span className={className}>
+    <span className={`${className} notranslate`} translate="no">
       {displayed}
       <span className="animate-pulse">|</span>
     </span>

@@ -33,7 +33,7 @@ const Contact = () => {
       <Header />
       <section className="pt-24 sm:pt-32 pb-10 sm:pb-16 relative overflow-hidden">
         <div className="absolute inset-0">
-          <img src={bannerContact} alt="Contact TekVion" loading="lazy" className="w-full h-full object-cover" />
+          <img src={bannerContact} alt="Contact Tekvion" loading="lazy" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-gradient-to-r from-[hsl(210,80%,15%)]/90 to-[hsl(203,94%,30%)]/80" />
         </div>
         <div className="container px-4 relative z-10">

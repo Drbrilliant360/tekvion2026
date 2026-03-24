@@ -22,7 +22,7 @@ const Footer = () => {
         {/* Subscribe bar */}
         <div className="flex flex-col md:flex-row items-start md:items-center gap-4 mb-12">
           <Link to="/" className="shrink-0">
-            <img src={tekvionLogo} alt="TekVion Technology" className="h-10 brightness-0 invert" />
+            <img src={tekvionLogo} alt="Tekvion Technology" className="h-10 brightness-0 invert" />
           </Link>
           <div className="flex w-full md:flex-1 md:max-w-xl md:ml-auto rtl:md:ml-0 rtl:md:mr-auto">
             <input
